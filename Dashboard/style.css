@@ -1,0 +1,105 @@
+/*PT Sans*/
+
+@font-face {
+    font-family: PT Sans;
+    src: url(/Fonts/PT Sans/PT_Sans-Web-Regular.woff);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: PT Sans;
+    src: url(/Fonts/PT Sans/PT_Sans-Web-Bold.woff);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: PT Sans;
+    src: url(/Fonts/PT Sans/PT_Sans-Web-Italic.woff);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: PT Sans;
+    src: url(/Fonts/PT Sans/PT_Sans-Web-BoldItalic.woff);
+    font-weight: bold;
+	font-style: italic;
+}
+
+/*Gothic*/
+
+@font-face {
+    font-family: Century Gothic;
+    src: url(/Fonts/Century Gothic/GOTHIC.WOFF);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Century Gothic;
+    src: url(/Fonts/Century Gothic/GOTHICB.WOFF);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Century Gothic;
+    src: url(/Fonts/Century Gothic/GOTHICI.WOFF);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Century Gothic;
+    src: url(/Fonts/Century Gothic/GOTHICBI.WOFF);
+    font-weight: bold;
+	font-style: italic;
+}
+
+
+
+.lev1 {
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+    background-color: #2d3344;
+}
+
+.lev2 {
+    color: #00f6ac !important;
+    box-shadow: none;
+    background-color: #453f57;
+}
+
+.lev2:focus {
+    background-color: #716d7d;
+}
+
+.lev3 {
+    color: #00f6ac;
+}
+
+.sidebar .nav-link.active {
+    color: #3D09DA ;
+}
+
+.bg-light {
+    background-color: #7d8daf/* !important*/;
+}
+
+.lev4 {
+    color: #f6f7fa !important;
+    -webkit-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    transition: all.6s ease;
+}
+
+.lev4:hover {
+    color: #716d7d !important;
+    -webkit-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    transition: all.6s ease;
+}
+
+.bg-dark {
+    background-color: #2d3344 !important;
+}
